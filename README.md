@@ -68,7 +68,7 @@ Next we need to install python support (node is optional)
   ```
 ## Run code
 
-the file to run code is in lua/user/lsp/settings/init.lua
+the file to run code is in `lua/user/lsp/settings/init.lua` you can go there and check and add some code to run the file in the code type you want.
   
 ---
 ### Require Neovim >= 8
