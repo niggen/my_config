@@ -66,6 +66,10 @@ Next we need to install python support (node is optional)
   ```
   npm i -g neovim
   ```
+## Run code
+
+the file to run code is in lua/user/lsp/settings/init.lua
+  
 ---
 ### Require Neovim >= 8
 ---
