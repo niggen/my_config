@@ -67,4 +67,4 @@ Next we need to install python support (node is optional)
   npm i -g neovim
   ```
 ---
-### Require Neovim >= 8 and Python3
+### Require Neovim >= 8
