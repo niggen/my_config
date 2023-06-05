@@ -76,3 +76,11 @@ Next we need to install python support (node is optional)
 `<space> + sk` open Key Maps
 `<space> + f` find file
 `<space> + a` open neovimdash
+
+Go to the left window: `Ctrl + w + h`
+
+Go to the right window: `Ctrl + w + l`
+
+Go to the upper window: `Ctrl + w + k`
+
+Go to the bottom window: `Ctrl + w + j`
