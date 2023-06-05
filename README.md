@@ -1,12 +1,10 @@
-# Neovim from scratch
+# Neovim from scratch But I change a little bit :V
 
-**Update** When I initially created this repo I didn't anticipate the amount of breaking changes introduced by the rapidly developing plugin ecosystem. If you'd like to use the same basic config as this one as a base I can also recommend my newer repo: [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
+**Update** Yeah basicly this man change Lunar neovim and I change it again funny right?: [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
 
-**Another Update**  All packages are pinned in `master` so it will remain stable. Branches will be updated eventually (currently broken from branch #7 onwards. Hint: Good opportunity for pull requests!).
+**Will be more update in the future**  All packages are pinned in `master` so it will remain stable. Branches will be updated eventually (currently broken from branch #7 onwards. Hint: Good opportunity for pull requests!).
 
-This repository and accompanying tutorials outline the building blocks of modern Neovim for your personalized development environment. Each video is associated with a branch so checkout the one you are interested in, you can follow along with this [playlist](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ). 
-
-General Neovim support is available on our [Matrix chat](https://matrix.to/#/#neovim-atmachine:matrix.org).
+Btw you guy can check the original creater of Neovim From Scratch *recommend* [playlist](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ). 
 
 ## Try out this config
 
@@ -70,19 +68,4 @@ Next we need to install python support (node is optional)
   ```
 ---
 
-**NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
-
-### Upgrade to Neovim v0.8.0
-
-Assuming you [built from source](https://github.com/neovim/neovim/wiki/Building-Neovim#quick-start), `cd` into the folder where you cloned `neovim` and run the following commands. 
-```
-git pull
-make distclean && make CMAKE_BUILD_TYPE=Release
-git checkout v0.8.0
-sudo make install
-nvim -v
-```
-
-> The computing scientist's main challenge is not to get confused by the complexities of his own making. 
-
-\- Edsger W. Dijkstra
+### Require Neovim >= 8
