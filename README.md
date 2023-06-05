@@ -68,3 +68,8 @@ Next we need to install python support (node is optional)
   ```
 ---
 ### Require Neovim >= 8
+---
+#This is some basic Key-mapping
+```
+<space> + r 
+```
