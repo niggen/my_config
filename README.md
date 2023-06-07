@@ -81,10 +81,13 @@ the file to run code is in `lua/user/lsp/settings/init.lua` you can go there and
 `<space> + f` find file
 `<space> + a` open neovimdash
 
-Go to the left window: `Ctrl + w + h`
+Go to the left window: `Ctrl + h`
 
-Go to the right window: `Ctrl + w + l`
+Go to the right window: `Ctrl + l`
 
-Go to the upper window: `Ctrl + w + k`
+Go to the upper window: `Ctrl + k`
 
-Go to the bottom window: `Ctrl + w + j`
+Go to the bottom window: `Ctrl + j`
+
+suggestion down `Ctrl + j`
+suggestion up `Ctrl + k`
