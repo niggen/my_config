@@ -91,3 +91,5 @@ Go to the bottom window: `Ctrl + j`
 
 suggestion down `Ctrl + j`
 suggestion up `Ctrl + k`
+
+file change in editing `Shift + l` to go right and `Shift + h ` to go left
