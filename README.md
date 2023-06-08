@@ -93,3 +93,5 @@ suggestion down `Ctrl + j`
 suggestion up `Ctrl + k`
 
 file change in editing `Shift + l` to go right and `Shift + h ` to go left
+
+close buffer `<space> + c`
