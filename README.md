@@ -1,97 +1,52 @@
-# Neovim from scratch But I change a little bit :V
+<h1 align="center"><img src="./assets/logo.gif" width="30px"> Discord Music Bot <img src="./assets/logo.gif" width="30px"></h1>
 
-**Update** Yeah basicly this man change Lunar neovim and I change it again funny right?: [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
+## 🚧 | Prerequisites
 
-**Will be more update in the future**  All packages are pinned in `master` so it will remain stable. Branches will be updated eventually (currently broken from branch #7 onwards. Hint: Good opportunity for pull requests!).
+- [Node.js 16+](https://nodejs.org/en/download/)
+- [Lavalink Server](https://code.darrennathanael.com/how-to-lavalink)
+- You'll need to run `npm run deploy` or `yarn deploy`. to initialized the slash commands. _You can do this on your pc
+  locally_
 
-Btw you guy can check the original creater of Neovim From Scratch *recommend* [playlist](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ). 
+> NOTE: Lavalink is needed for music functionality. You need to have a working Lavalink server to make the bot work.
 
-## Try out this config
+## 📝 | Important Note if you're Switching from v4 to v5
 
-This config requires [Neovim v0.8.0](https://github.com/neovim/neovim/releases). Please [upgrade](#upgrade-to-neovim-v080) if you're on an earlier version of the editor.
+1. Download and configure v5 in a seperate folder.
+2. Kick your bot out of your server.
+3. Reinvite the Bot with the right
+   scopes. [Example Invite URL (Change CLIENT_ID)](https://discord.com/oauth2/authorize?client_id=CLIENT_ID&permissions=277083450689&scope=bot%20applications.commands)
+4. Run `npm run deploy` or `yarn deploy` to initialize the slash commands. _You can do this on your pc locally_
 
-Clone the repository into the correct location (make a backup your current `nvim` directory if you want to keep it).
+## 📝 | Tutorial
 
-```
-git clone https://github.com/niggen/my_config.git ~/.config/nvim
-```
+Soon
 
-Run `nvim` in your terminal and wait for the plugins to be installed. You will notice treesitter pulling in a bunch of language parsers the next time you open Neovim.
+## 📝 | [Support Server](https://discord.gg/sbySMS7m3v)
 
-**NOTE** [Mason](https://github.com/williamboman/mason.nvim) is used to install and manage LSP servers, DAP servers, linters, and formatters via the `:Mason` command.
+If you have major coding issues with this bot, please join and ask for help.
 
-## Get healthy
+## 📸 | Screenshots
 
-Open `nvim` and enter the following:
+Soon
 
-```
-:checkhealth
-```
+## 🚀 | Deploy
 
-You'll probably notice you don't have support for copy/paste also that python and node haven't been setup
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5)
+[![Open in Gitpod](https://camo.githubusercontent.com/76e60919474807718793857d8eb615e7a50b18b04050577e5a35c19421f260a3/68747470733a2f2f676974706f642e696f2f627574746f6e2f6f70656e2d696e2d676974706f642e737667)](https://gitpod.io/#https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5)
 
-So let's fix that
+## ✨ | Contributors
 
-First we'll fix copy/paste
+Contributions are always welcomed :D Make sure to follow [Contributing.md](/CONTRIBUTING.md)
 
-- On mac `pbcopy` should be builtin
+<a href="https://github.com/SudhanPlayz/Discord-MusicBot/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=SudhanPlayz/Discord-MusicBot" />
+</a>
 
-- On Ubuntu
+## 🌟 | Made with
 
-  ```
-  sudo apt install xsel
-  ```
-
-- On Arch Linux
-
-  ```
-  sudo pacman -S xsel
-  ```
-  
-- Wayland users
-
-  [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
-
-
-Next we need to install python support (node is optional)
-
-- Neovim python support
-
-  ```
-  pip install pynvim
-  ```
-
-- Neovim node support
-
-  ```
-  npm i -g neovim
-  ```
-## Run code
-
-the file to run code is in `lua/user/lsp/settings/init.lua` you can go there and check and add some code to run the file in the code type you want.
-  
----
-### Require Neovim >= 8
----
-# This is some basic Key-mapping
-
-`<space> + r` run code
-`<sapce> + e` open explorer
-`<space> + sk` open Key Maps
-`<space> + f` find file
-`<space> + a` open neovimdash
-
-Go to the left window: `Ctrl + h`
-
-Go to the right window: `Ctrl + l`
-
-Go to the upper window: `Ctrl + k`
-
-Go to the bottom window: `Ctrl + j`
-
-suggestion down `Ctrl + j`
-suggestion up `Ctrl + k`
-
-file change in editing `Shift + l` to go right and `Shift + h ` to go left
-
-close buffer `<space> + c`
+- [Discord.js](https://discord.js.org/)
+- [Lavalink](https://github.com/freyacodes/Lavalink) with erela.js
+- [Express](https://expressjs.com/)
+- [Next JS](https://nextjs.org/)
+- [Next UI](https://nextui.org)
+- [Material UI Icons](https://mui.com/material-ui/material-icons/)
